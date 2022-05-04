@@ -1,0 +1,65 @@
+* {
+    font-family: sans-serif;
+    color: navy;
+    background-color: snow;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    border: 2px solid navy;
+    background-color: white;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+.save {
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+.paragraph {
+    display: inline;
+}
+.delete-all {
+    margin-top: 20px;
+    width: 200px;
+    height: 25px;
+    font-size: 15px;
+}
+
+li {
+    margin: 15px;
+}
+
+.delete {
+    width: 26px;
+    height: 29px;
+    font-size: 20px;
+    background-color: indigo;
+    float: right;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    font-weight: 400;
+    background-color: slateblue;
+    border-radius: 50px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    cursor: pointer;
+}
+
+ul {
+    width: 25%;
+}
